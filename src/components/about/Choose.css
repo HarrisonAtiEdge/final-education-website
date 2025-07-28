@@ -1,0 +1,260 @@
+.Vision-container {
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+.Vision-card {
+    width: 700px;
+    display: grid;
+    /* height: 350px; */
+    /* max-inline-size: 100%; */
+}
+
+/* .Besttreat-card img {
+    width: 500px;
+    display: grid;
+    grid-gap: 40px;
+    height: 350px;
+    max-inline-size: 100%;
+} */
+.imgsize{
+    width: 100px;
+    height: auto;
+}
+.materialalign{
+    padding-left: 70px;
+}
+.imagepadding {
+    padding-top: 10px;
+    margin-left: -130px;
+}
+.matter{
+    margin-top: -50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.laptoppadding img{
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 600px;
+    height: auto;
+}
+
+.Events-Heading h1 {
+    margin-top: 10px;
+    margin-left: 800px;
+    /* margin-bottom: 50PX; */
+    /* height: 350px; */
+}
+
+.backcolor  :hover{
+   background-color: #1e4682;
+   color: white;
+   cursor: pointer;
+   /* box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%); */
+   transition: 0.5s;
+}
+@media screen and (max-width: 1600px) {
+    .laptoppadding img{
+        margin-left: 90px;
+    }
+  }
+  @media screen and (max-width: 1366px) {
+   .Vision-container {
+     grid-gap: 20px;
+     padding-left: 0px;
+   }
+   .laptoppadding img{
+        margin-left: 40px;
+    }
+    .materialalign{
+    padding-left: 200px;
+}
+   .Events-Heading h1 {
+    margin-left: 550px;
+}
+  }
+
+  @media screen and (max-width: 1098px) {
+    .imgsize {
+      width: 76px;
+      height: auto;
+    }
+    .imagepadding {
+      padding-top: 10px;
+      margin-left: -79px;
+    }
+    .materialalign {
+      padding-left: 123px;
+  }
+  .Events-Heading h1 {
+      margin-left: 400px;
+      margin-top: -23px;
+      font-size: 35px;
+  }
+  .matter {
+      margin-top: -36px;
+      max-width: 400px;
+  }
+  .laptoppadding img {
+      margin-top: 395px;
+      margin-left: -133px;
+      width: 500px;
+      height: auto;
+  }
+    }
+
+  @media screen and (max-width :720px){
+    .Vision-container {
+        grid-template-columns: 1fr;
+    }
+    .Events-Heading h1 {
+        margin-left: 200px;
+    }
+    .laptoppadding img{
+        margin-left: 55px;
+        margin-top: 80px;
+    }
+    
+  }
+  @media screen and (max-width :480px){
+  
+    .matter{
+        margin-top: 50px;
+        margin-left: -150px;
+        max-width: 450px;
+    }
+    .Events-Heading h1 {
+        margin-left: 120px;
+    }
+    .laptoppadding img{
+        margin-left: 10px;
+        width: 450px;
+    }
+    .imagepadding {
+        padding-top: 10px;
+        margin-left: 0px;
+    }
+    .Vision-card {
+        width: 450px;
+    }
+  }
+  @media screen and (max-width :768px){
+    .Vision-container {
+        grid-template-columns: 1fr;
+    }
+    .Events-Heading h1 {
+        margin-left: 200px;
+    }
+    .laptoppadding img{
+        margin-left: 55px;
+        margin-top: 80px;
+    }
+    
+  }
+@media screen and (max-width: 640px){
+    .materialalign {
+        padding-left: 256px;
+        margin-top: 10px;
+    }
+    .matter{
+        margin-top: 50px;
+        margin-left: -150px;
+        max-width: 500px;
+    }
+    .laptoppadding img{
+        margin-left: 90px;
+        width: 450px;
+    }
+    .Vision-card {
+        width: 600px;
+    }
+  }
+
+
+
+/* Breakepoint of 414 screen resolution */
+  @media screen and (max-width: 414px){
+    .materialalign {
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .matter{
+        margin-top: 50px;
+        margin-left: -150px;
+        max-width: 500px;
+    }
+    .laptoppadding img{
+            margin-left: 20px;
+            width: 370px;
+            margin-top: -21px;
+    }
+    .Vision-card {
+        width: 360px;
+    }
+    .Events-Heading h1 {
+        margin-left: 70px;
+        font-size: 29px;
+    }
+    .matter {
+        margin-top: 50px;
+        margin-left: 35px;
+        max-width: 337px;
+    }
+    .imagepadding {
+        padding-top: 10px;
+        margin-left: 129px;
+    }
+  }
+
+
+
+  /* Breakepoint of 375 screen resolution */
+  @media screen and (max-width: 375px){
+    .materialalign {
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .matter{
+        margin-top: 50px;
+        margin-left: -150px;
+        max-width: 500px;
+    }
+    .laptoppadding img{
+            margin-left: -6px;
+            width: 350px;
+            margin-top: -21px;
+    }
+    .Vision-card {
+        width: 330px;
+    }
+    .Events-Heading h1 {
+        margin-left: 50px;
+        font-size: 29px;
+    }
+    .matter {
+        margin-top: 50px;
+        margin-left: 35px;
+        max-width: 337px;
+    }
+    .imagepadding {
+        padding-top: 10px;
+        margin-left: 105px;
+    }
+    .materialalign {
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .laptoppadding img{
+            margin-left: -6px;
+            width: 350px;
+            margin-top: -21px;
+    }
+  }
+

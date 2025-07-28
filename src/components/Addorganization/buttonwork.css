@@ -1,0 +1,19 @@
+.buttoncontainer{
+   padding: 2rem 38rem 0;
+}
+.buttonworkbox{
+    max-width:600px;
+    background-color: aqua;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline-offset: 1;
+    outline-style: groove;
+    outline-color: blue;
+}
+.buttonalign{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

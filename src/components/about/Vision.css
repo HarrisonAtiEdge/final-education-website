@@ -1,0 +1,193 @@
+.blockcontainer{
+    height: 500px;
+}
+.visionheading {
+    padding-left: 900px;  
+    padding-top: 20px;
+}
+.visionheading img{
+    width: 100px;
+    height: auto;
+    margin-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.materialvision{
+    align-items: center;
+    max-width: 900px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 520px;
+  padding-top: 30px;
+}
+.visionheading h1{
+    font-size: 40px;
+}
+@media screen and (max-width: 1600px) {
+    .blockcontainer{
+       padding-top:100px;
+       margin-left: -120px;
+    }
+  }
+
+  @media screen and (max-width: 1098px) {
+    .blockcontainer {
+      padding-top: 0px;
+      margin-left: -249px;
+  }
+  .blockcontainer {
+    height: 200px;
+  }
+  }
+
+  @media screen and (max-width :720px){
+    .visionheading {
+        padding-left: 400px;
+        
+    }
+    .materialvision{
+        align-items: center;
+        max-width: 600px;
+      margin-bottom: 50px;
+      text-align: center;
+      margin-left: 230px;
+    }
+    .blockcontainer{
+      width: 710px;
+      padding-top:50px;
+    }
+  } 
+  
+  @media screen and (max-width: 640px){
+   .visionheading {
+    padding-left: 360px;
+    padding-top: 100px;
+}
+  }
+  @media screen and (max-width: 1366px){
+    .visionheading {
+     padding-left: 723px;
+     padding-top: 0px;
+ }
+ .materialvision p{
+  align-items: center;
+  max-width: 900px;
+text-align: center;
+margin-left: -150px;
+}
+   }
+
+
+  @media screen and (max-width :786px){
+    .visionheading {
+        padding-left: 400px;
+    }
+    .materialvision{
+        align-items: center;
+        max-width: 500px;
+      margin-bottom: 50px;
+      text-align: center;
+      margin-left: 1px;
+    }
+    .blockcontainer{
+      width: 710px;
+      padding-top:50px;
+    }
+  } 
+
+  @media screen and (max-width :640px){
+    .visionheading {
+        padding-left: 320px;
+    }
+    .materialvision{
+        align-items: center;
+        max-width: 400px;
+      margin-bottom: 50px;
+      text-align: center;
+      margin-left: 300px;
+    }
+    .blockcontainer{
+      width: 710px;
+      padding-top:50px;
+    }
+  } 
+  @media screen and (max-width :480px){
+    .visionheading {
+        padding-left: 278px;
+        padding-top: 10px;  
+    }
+    .materialvision{
+        align-items: center;
+        max-width: 400px;
+      margin-bottom: 50px;
+      text-align: center;
+      margin-left: 160px;
+    }
+    .blockcontainer{
+      padding-top:77px;
+      width: 600px;
+      height: 400px;
+    }
+  } 
+
+/* Breakepoint of 414 screen resolution */
+@media screen and (max-width :414px){
+  .visionheading {
+      padding-left: 229px;
+  }
+  .materialvision{
+      align-items: center;
+      /* max-width: 175px; */
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 300px;
+  }
+    .blockcontainer {
+      width: 489px;
+      padding-top: 20px;
+      margin-left: -120px
+  }
+  .materialvision p {
+    align-items: center;
+    max-width: 331px;
+    text-align: center;
+    margin-left: -136px;
+}
+.visionheading h1 {
+  font-size: 35px;
+}
+ 
+}
+
+/* Breakepoint of 375 screen resolution */
+@media screen and (max-width :375px){
+  .visionheading {
+      padding-left: 210px;
+      font-size: 25px;
+  }
+  .materialvision{
+      align-items: center;
+      /* max-width: 175px; */
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 300px;
+   padding-top: 0px;
+  }
+    .blockcontainer {
+      width: 489px;
+      padding-top: 1px;
+      margin-left: -117px
+  }
+  .materialvision p {
+    align-items: center;
+    max-width: 331px;
+    text-align: center;
+    margin-left: -160px;
+    line-height: normal;
+}
+.visionheading h1 {
+  font-size: 35px;
+}
+ 
+}

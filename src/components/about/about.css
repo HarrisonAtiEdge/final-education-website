@@ -1,0 +1,350 @@
+.aboutHome {
+  height: auto;
+}
+
+.aboutHome #heading {
+  text-align: left;
+  padding: 0;
+}
+
+.aboutHome .left img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.aboutHome .center img {
+  width: 600px;
+  height: 700px;
+  /* object-fit: cover; */
+}
+
+.aboutHome .end img {
+  width: 600px;
+  height: 600px;
+  /* object-fit: cover; */
+}
+
+.aboutHome .right {
+  padding: 80px 50px;
+}
+
+.aboutHome .right1 {
+  padding: 92px 50px;
+}
+
+.aboutHome .items {
+  margin-top: 50px;
+}
+
+.aboutHome .item {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.aboutHome .img {
+  width: 200px;
+}
+
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+
+.aboutHome .item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.aboutHome .item p {
+  color: #999999;
+  margin-left: 20px;
+}
+
+.aboutHome .item:hover {
+  background-color: #1e4682;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+
+.aboutHome .item:hover p {
+  color: #fff;
+}
+
+/*----------awrapper------------*/
+.awrapper {
+  background-image: url("../../components/assets/Awrapper-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: #fff;
+}
+
+.awrapper .box {
+  padding: 70px 0;
+}
+
+.awrapper img {
+  margin-right: 30px;
+}
+
+.awrapper h1 {
+  font-size: 50px;
+}
+
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*----------awrapper------------*/
+@media screen and (max-width: 768px) {
+  .aboutHome .container101 {
+    flex-direction: column-reverse;
+  }
+  .aboutHome .right {
+    padding-top: 0x;
+}
+.awrapper {
+  height: 30vh;
+  background-position: right;
+}
+.aboutHome .left img {
+  margin-top: 0px;
+}
+.aboutHome .center img {
+    padding-top: 80px;
+    width: 600px;
+    height: 750px;
+}
+.aboutHome .row {
+  width: 100%;
+}
+.aboutHome .right {
+  padding: 0px 17px;
+}
+}
+
+/*----------abouthome------------*/
+@media screen and (max-width: 1366px) {
+  .aligmentabout{
+   margin-top: 50px;
+  }
+  .aboutHome .right1 {
+    padding-top: 60px;
+    padding-left: 100px;
+  }
+  .aboutHome .right {
+    padding-top: 90px;
+  }
+  .aboutHome .center img {
+    padding-top: 80px;
+    width: 600px;
+    height: 750px;
+  }
+   .aboutHome .left img {
+    margin-top: 150px;
+  }
+
+}
+@media screen and (max-width: 1600px) {
+
+  .aboutHome .left img {
+    margin-top: 70px;
+  }
+
+  .aboutHome .end img {
+    padding-top: 80px;
+  }
+
+  .aboutHome .right {
+    padding-top: 130px;
+  }
+
+  .aboutHome .center img {
+    padding-top: 80px;
+    width: 700px;
+    height: 750px;
+  }
+
+}
+@media screen and (max-width: 640px){
+.aboutHome .right {
+    padding-top: 300px;
+}
+.awrapper .box {
+  padding: 30px 0;
+}
+.aboutHome .right {
+ padding-top: 450px;
+ padding: 0px 0x;
+}
+.aboutHome .center img {
+    padding-top: 80px;
+    width: 530px;
+    height: 750px;
+}
+.aboutHome .right1 {
+  padding-top: 160px;
+}
+}
+@media screen and (max-width: 720px){
+.aboutHome .right {
+    padding-top: 0x;
+}
+.awrapper {
+  height: 30vh;
+  background-position: right;
+}
+.aboutHome .left img {
+  margin-top: 0px;
+}
+.aboutHome .center img {
+    padding-top: 80px;
+    width: 600px;
+    height: 750px;
+}
+.aboutHome .row {
+  width: 100%;
+}
+.aboutHome .right {
+  padding: 0px 17px;
+}
+}
+@media screen and (max-width: 1366px) {
+  .aligmentabout{
+   padding-top: 80px;
+  }
+  .alignabout2{
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 1098px) {
+  .aligmentabout {
+      padding-top: 119px;
+  }
+  .awrapper {
+    height: 40vh;
+  }
+  .awrapper h1 {
+    font-size: 40px;
+  }
+  .awrapper img {
+    margin-right: 13px;
+  }
+  .aboutHome .left img {
+    margin-top: 166px;
+  }
+  .aboutHome .right {
+    padding-top: 182px;
+  }
+  .aboutHome .items {
+    margin-top: -4px;
+  }
+  }
+
+@media screen and (max-width: 1920px) {
+  .aligmentabout{
+   padding-top: 80px;
+  }
+  .alignabout2{
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .awrapper {
+    height: 94vh;
+  }
+  .aboutHome .right {
+    padding: 0px 0px;
+}
+.aboutHome .right {
+  padding-top: 123px;
+}
+.awrapper .box {
+  padding: 40px 0px;
+}
+.aboutHome .items {
+  margin-top: 0px;
+}
+.aboutHome #heading {
+  text-align: left;
+  padding-top: 42px;
+}
+}
+
+
+/* Breakepoint of 414 screen resolution */
+@media screen and (max-width: 414px) {
+  .aboutHome .item {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 1px;
+    transition: 0.5s;
+}
+.awrapper {
+  height: 86vh;
+}
+.aboutHome .left img {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.aboutHome #heading {
+  text-align: left;
+  padding-top: 133px;
+}
+.aboutHome .center img {
+  padding-top: 1px;
+  width: 350px;
+  height: 500px;
+}
+.aboutHome .end img {
+  width: 600px;
+  height: 500px;
+  /* object-fit: cover; */
+}
+.aboutHome .right {
+  padding-top: 2px;
+}
+}
+
+
+/* Breakepoint of 375 screen resolution */
+@media screen and (max-width: 375px) {
+  .aboutHome .item {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 1px;
+    transition: 0.5s;
+}
+.awrapper {
+  height: 115vh;
+}
+.aboutHome .left img {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.aboutHome #heading {
+  text-align: left;
+  padding-top: 42px;
+}
+.aboutHome .center img {
+  padding-top: 1px;
+  width: 350px;
+  height: 500px;
+}
+.aboutHome .end img {
+  width: 600px;
+  height: 500px;
+  /* object-fit: cover; */
+}
+
+}
+
+
+
