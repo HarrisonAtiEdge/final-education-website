@@ -1,0 +1,125 @@
+.FormAlignment {
+    margin-left: 570px;
+    padding-top: 50px;
+    display: grid;
+    gap: 20px;
+    align-content: 'space-between'
+}
+
+
+
+.submit-button {
+    background-color: #1e4682;
+    color: white;
+    font-size: 12px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 60px;
+    width: 150px;
+    margin-left: 250px;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 10px 10px 5px #1e4682;
+}
+
+#dropdown-advance-button {
+    width: 650px;
+    border-color: rgb(225, 234, 239);
+    text-align: left;
+    color: rgb(117, 112, 112);
+}
+
+#dropdown-advance-button:hover {
+    border-color: #1e4682;
+}
+
+#dropdown-item {
+    width: 650px;
+    border-color: rgb(225, 234, 239);
+    text-align: left;
+    color: rgb(117, 112, 112);
+    background-color: white;
+    font-size: medium;
+    /* max-height: 500px; */
+    /* overflow-y:scroll; */
+}
+
+#dropdown-advance1-button {
+    width: 150px;
+    border-color: rgb(225, 234, 239);
+    text-align: left;
+    color: rgb(117, 112, 112);
+}
+
+#dropdown-advance1-button:hover {
+    border-color: #1e4682;
+}
+
+label {
+    color: rgb(11, 101, 174);
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 1366px) {
+    .FormAlignment {
+        margin-left: 400px;
+        padding-top: 50px;
+    }
+    
+}
+@media screen and (max-width: 1600px) {
+    .FormAlignment {
+        margin-left: 550px;
+        padding-top: 100px;
+    }
+    .submit-button {
+        margin-left: 190px;
+    }
+    
+}
+@media screen and (max-width: 1366px) {
+    .FormAlignment {
+        margin-left: 400px;
+        padding-top: 50px;
+    }
+
+    
+}
+@media screen and (max-width: 375px){
+.FormAlignment {
+    margin-left: 32px;
+    padding-top: 80px;
+    grid-template-columns: 1fr;
+}
+.col{
+    flex: auto;
+}
+.submit-button {
+    margin-left: 77px;
+}
+.logincontainer {
+    height: 66vh;
+}
+.form-control {
+    display: block;
+    width: 140%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+}
